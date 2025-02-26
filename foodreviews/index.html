@@ -6,22 +6,40 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <style>
+      @font-face {
+        font-family:"yipes";
+        src: url(Yipes.Regular.woff);
+      }
+      @font-face {
+        font-family:"raysfont";
+        src: url(RaysFont2-Regular.woff)
+
+      }
+    
       body {
       background-color: whitesmoke;
       opacity: 0.9;
+      font-family:"yipes";
+      font-size: 20px;
     }
     h1 {
       color: brown;
       text-align: center;
       border: 2px solid brown;
       background-color:floralwhite;
-      font-size: 50px;
-      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 75px;
+      font-family:"raysfont";
+      padding: 20px;
+      vertical-align: center;
+      border-radius: 30px;
+      margin: 30px 100px;
     }
 
     h3 {
       color: brown;
       text-align: center;
+      -webkit-text-stroke-width: 0.3px;
+      -webkit-text-stroke-color: black;
     }
     
     .center {
@@ -35,6 +53,28 @@
       font-size: 40px;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
+    .button1 {
+      background-color:floralwhite;
+      padding: 5px 5px;
+      border-radius: 10px;
+      text-decoration: none;
+      margin-left: 550px;
+      margin-right: 550px;
+      color:brown;
+      border: 2px solid brown;
+      font-family: "raysfont";
+      transition: 0.5s ease-out;
+      font-size: 50px;
+    }
+    .button1:hover {
+      transform: scale(1.05);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+        opacity: 90%;
+      
+    }
+    .image {
+      border-radius: 12px;
+    }
 
     
 
@@ -47,38 +87,38 @@
   </head> 
   <p><b><h1>a collection of things that i have eaten!</h1></b></p>
   <body>
-    <a href = "https://us3rnames.github.io/gifting/aboutme/index.html">
-    <p class="author center" style = "color:palevioletred"><b>raymond yang</b></p>
+    <a style = "text-decoration: none" href = "https://us3rnames.github.io/gifting/aboutme/index.html">
+    <p class="author center button1"><b>raymond yang</b></p>
   </a>
     
-     <p class="center"><b><h3>date: 8/23/2023</h3></b></p>
+     <p class="center"><b><h3>🗓️ date: 8/23/2023</h3></b></p>
      <p class="center">when i first arrived on campus, i was convinced that i was eating gourmet.
      </p>
      <p class="center">therefore, this has to be a <b>five out of five ★★★★★</b></p>
-     <img class="center" src="campusmeal.JPG" width = 200 height = 250>
+     <img class="center image" src="campusmeal.JPG" width = 200 height = 250>
      <br>
-     <p><b><h3>date: 5/23/2023</h3></b></p>
+     <p><b><h3>🗓️ date: 5/23/2023</h3></b></p>
      <p class = "center">these are from a food cart near my house and they are so amazing i actually miss them so bad right now</p>
      <p class = "center"><b>five out of five ★★★★★</b></p>
-     <img class="center" src ="birria tacos.JPG" width = 200 height = 250>
+     <img class="center image" src ="birria tacos.JPG" width = 200 height = 250>
      <br>
      <a href = "https://brieaustin.com/from-tradition-to-trend-exploring-the-roots-of-birria-tacos/" >
       <button class="center" style = "color: orangered"> click to learn more about birria tacos! </button>
       </a>
-     <p><b><h3>date: 4/20/2022</h3></b></p>
+     <p><b><h3>🗓️ date: 4/20/2022</h3></b></p>
      <p class="center">i had this sandwich in chelsea market and i <strong>do not</strong> know where it is now and it was so good it was expensive but still so good</p>
      <p class="center" ><b>4.5 out of five ★★★★ + 1/2 * ★</b></p>
      <p class="center" >-0.5 because i think it cost me around $14 . </p>
-     <img class="center" src="sandwich.JPG" width = 200 height = 250>
-     <p><b><h3>date: 1/2/2025</h3></b></p>
+     <img class="center image" src="sandwich.JPG" width = 200 height = 250>
+     <p><b><h3>🗓️ date: 1/2/2025</h3></b></p>
      <p class="center">corn dogs are one of my favorite snacks. forever.</p>
      <p class="center"><b>five out of five. ★★★★★ </b></p>
-     <img class="center" src="corndog.JPG" width = 200 height = 250>
+     <img class="center image" src="corndog.JPG" width = 200 height = 250>
      <br>
      <a href = "https://www.ohkdog.com/">
       <button class="center" style = "color: gray"> location here! </button>
       </a>
-    <p><b><h3>date: 12/15/2024</h3></b></p>
+    <p><b><h3>🗓️ date: 12/15/2024</h3></b></p>
     <p class="center">this was a trip to new york that i took with my friend who hasn't been in a while. it was soooo fun</p>
     <p class="center">udon lab! this was my first time trying it and i tried one of their most popular dishes. 
       i thought it was really good, but it was a lot of flavors at once.</p>
@@ -87,7 +127,7 @@
       <p class = "center">because of that, i would give it a <strong>4.5 out of five.</strong> 
         but i actually went back and their other dishes were awesome too!!!
         ★★★★ + 1/2 * ★ </p>
-      <img class="center" src="udon lab.JPG" width = 200 height = 250>
+      <img class="center image" src="udon lab.JPG" width = 200 height = 250>
       <br>
       <a href = "https://www.udonlabnewyork.com/">
         <button class="center" style = "color:darkred"> location here! </button>
