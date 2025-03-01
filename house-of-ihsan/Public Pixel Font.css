@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'PublicPixelrv0pA';
+    src: url('fonts/PublicPixelrv0pA.eot');
+    src: url('fonts/PublicPixelrv0pA.eot') format('embedded-opentype'),
+         url('fonts/PublicPixelrv0pA.woff2') format('woff2'),
+         url('fonts/PublicPixelrv0pA.woff') format('woff'),
+         url('fonts/PublicPixelrv0pA.ttf') format('truetype'),
+         url('fonts/PublicPixelrv0pA.svg#PublicPixelrv0pA') format('svg');
+}
