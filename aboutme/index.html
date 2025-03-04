@@ -6,17 +6,34 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <style>
+      @font-face {
+        font-family: "cosmic";
+        src: url(cosmic.woff);
+      }
+      @font-face {
+        font-family:"VCR";
+        src: url(VCR_OSD_MONO_1.001\ 2.woff);
+      }
       body {
         font-size: 16px;
         line-height: 1.5;
         text-align: center;
         margin: 0;
+        background-image:url(cowprint.jpg);
+        background-size:contain;
       }
       main {
         padding: 150px 20px;
       }
       img {
         max-width: 100%;
+        border-radius: 40px;
+      }
+      img.profile {
+        border-color:black;
+        border-width: 10px;
+        border-style:solid;
+
       }
       footer {
         font-size: 10px;
@@ -29,10 +46,33 @@
       }
       img.sphere {
         position: absolute;
-        top: 0.6em;
-        right: 0.5em;
+        top: 2.0em;
+        right: 1.0em;
         width: 50px;
         height: 50px;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      a:visited {
+        color: inherit;
+      }
+      li.name {
+        font-family: "VCR";
+        font-size: 70px;
+      }
+      div.about {
+        font-family: "VCR";
+        font-size: 20px;
+      }
+      div.text {
+        background-color: white;
+        border-radius: 14px;
+        margin: 10px 10px;
+        width: 75%;
+        padding: 1em;
+        
       }
       @media screen and (max-width: 500px) {
         main {
@@ -46,7 +86,7 @@
     <main>
       <figure class="profile">
         <!-- note: make sure the below is a square dimension photo of you -->
-        <img
+        <img class="profile"
           src="selfie.JPG"
           alt="profile photo of raymond in his dorm, looking into the camera"
         />
@@ -59,10 +99,12 @@
       </figure>
 
       <br /><br /><br />
-
-      <b>Raymond Yang</b><br />
-      <a href="mailto: raymondyang@princeton.edu">raymondyang@princeton.edu</a><br />
-      <a href="http://veryinteractive.net/gifting"
+      <center>
+      <div class ="text">
+      <li class="name"><b>Raymond Yang</b><br /></li>
+        <div class="about">
+        <a href="mailto: raymondyang@princeton.edu">raymondyang@princeton.edu</a><br />
+        <a href="http://veryinteractive.net/gifting"
         >VIS 208. Graphic Design: Link ("Gifting")</a
       ><br />
       <a href=https://linkedin.com/in/raaymondyang>raymond's linkedin</a><br />
@@ -72,6 +114,13 @@
       <b>Gifting Experiments</b><br />
       <a href="https://us3rnames.github.io/gifting/valentinesday/index.html">Valentines Day HTML</a><br />
       <a href="https://us3rnames.github.io/gifting/foodreviews/index.html">Idea Seed HTML</a>
+      </div>
+      </div>
+      </center>
+     <br>
+     <br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6Dk5fHTvH897XrVzCO64Mx?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </main>
   </body>
 </html>
