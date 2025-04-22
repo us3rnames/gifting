@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Coding from Life</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="base.css" type="text/css" />
+	<style>
+		.canvas {
+			background-color: #CE3E3B;
+		}
+		.apple {
+			height: 115px;
+			width: 115px;
+			background: #902923;
+			border-radius: 50%;
+			position: absolute;
+			bottom: 50px;
+			left: 200px;
+		}
+		.vase {
+			height: 325px;
+			width: 170px;
+			/* border: 1px solid yellow; */
+			position: absolute;
+			bottom: 100px;
+			left: 400px;
+			border-right: 1px solid white;
+			border-left: 1px solid white;
+		}
+		.vase-bottom {
+			height: 80px;
+			width: 100%;
+			background: gray;
+			position: absolute;
+			bottom: -40px;
+			border-radius: 50%;
+			opacity: 75%;
+		}
+		.vase-top {
+			height: 80px;
+			width: 100%;
+			border-radius: 50%;
+			/* background: white; */
+			border: 1px solid white;
+			position: absolute;
+			top: -40px;
+		}
+		.flower {
+			height: 400px;
+			width: 50px;
+			transform: rotate(-15deg);
+			/* border: 1px solid green; */
+			position: absolute;
+			left: 45px;
+			bottom: 10px;
+		}
+		.flower-two {
+			height: 400px;
+			width: 50px;
+			transform: rotate(25deg);
+			/* border: 1px solid green; */
+			position: absolute;
+			left: 90px;
+			bottom: 20px;
+		}
+		.stem {
+			height: 400px;
+			width: 10px;
+			background: darkgreen;
+			position: absolute;
+			left: 5px;
+		}
+		.leaf {
+			height: 15px;
+			width: 35px;
+			background: darkgreen;
+			position: absolute;
+			bottom: 300px;
+			left: 10px;
+			border-radius: 60%;
+			transform: rotate(-30deg);
+		}
+		.petals {
+			height: 30px;
+			width: 100px;
+			position: absolute;
+
+		}
+		.petal {
+			height: 30px;
+			width: 100px;
+			background: yellow;
+			border-radius: 50%;
+			position: absolute;
+			left: -40px;
+			top: -3px;
+		}
+		.petal.one {
+			transform: rotate(15deg);
+		}
+		.petal.two {
+			transform: rotate(-15deg);
+		}
+		.ruler {
+			z-index: 0;
+			height: 20px;
+			width: 501px;
+			background: gray;
+			position: absolute;
+			bottom: 155px;
+			left:40px;
+			transform:rotate(-25deg);
+		}
+		.plate {
+			height: 45px;
+			width: 175px;
+			background: sandybrown;
+			opacity: 95%;
+			border-radius: 50%;
+			position: absolute;
+			right: 100px;
+			top: 200px;
+		}
+		.cake {
+			/* height: 45px;
+			width: 65px; */
+			/* background: brown; */
+			position: absolute;
+			border-left: 30px solid transparent;
+			border-right: 35px solid transparent;
+			border-bottom: 50px solid brown;
+			left: 35px;
+			bottom: 20px;
+			transform:scale(1.25);
+		}
+		.candle {
+  			width: 4px;
+  			height: 30px;
+  			background:
+			white;
+  			position: absolute;
+  			left: 62px;
+  			bottom: 53.5px;
+		}
+		.flame {
+			background: yellow;
+			opacity: 0.5;
+			height: 30px;
+			width: 16px;
+			position: absolute;
+			left: 56px;
+			bottom: 85px;
+			border-radius: 50%;
+			animation:0.75s linear 1s infinite alternate-reverse;
+		}
+
+		
+	</style>
+</head>
+
+<body>
+
+  <div class="canvas">
+	<div class ="ruler"></div>
+	<div class="apple"></div>
+		<div class="vase">
+			<div class ="vase-bottom"></div>
+			<div class ="vase-top"></div>
+			<div class ="flower">
+				<div class ="stem"></div>
+				<div class ="leaf"></div>
+				<div class ="petals">
+					<div class ="petal one"></div>
+					<div class ="petal two"></div>
+				</div>
+
+
+			</div>
+			<div class = "flower-two">
+				<div class = "stem"></div>
+				<div class ="petals">
+					<div class ="petal one"></div>
+					<div class ="petal two"></div>
+				</div>
+			</div>
+			</div>
+			<div class = "plate">
+				<div class ="cake"></div>
+				<div class ="candle"></div>
+				<div class ="flame"></div>
+			</div>
+
+			</div>
+
+</body>
+
+</html>
